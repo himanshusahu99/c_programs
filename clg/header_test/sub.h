@@ -1,0 +1,1 @@
+int subs(int,int);

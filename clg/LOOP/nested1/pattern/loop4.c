@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+
+{
+ int i,j,k,n,s;
+
+printf("enter no. of row ");
+scanf("%d",&n);
+
+for(i=1; i<=n; i++)
+ {  
+	for(j=i; j<n; j++)
+		printf(" ");
+	for(j=1; j<=2*i-1; j++)
+	      	printf("*"); 	
+			
+     		
+
+ printf("\n");
+ }
+  s=n-1;
+ for(i=1; i<=s; i++)
+ {
+    for(j=1; j<=i; j++)
+		printf(" ");
+     for(j=1; j>=2*i-1; j++)
+	      	printf("*"); 	
+			
+ printf("\n");
+ }
+
+
+}
